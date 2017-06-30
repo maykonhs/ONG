@@ -1,0 +1,130 @@
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
+
+.destaque {
+	background-image: url(../img/destaque.jpg);
+	height: 600px;
+	font-size: 60px;
+}
+
+.destaque p {
+	margin: 0 auto;
+	width: 1300px;
+	padding-top: 320px;
+	text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+}
+
+.ong {
+
+}
+
+.atividades {
+	background-color: #2F4F4F;
+}
+
+.atividades h2 {
+	color: #fff;
+}
+
+.quem {
+	background-color: #CD9B1D;
+}
+
+.quem h2 {
+	color: #fff;
+}
+
+header {
+	position: relative;
+}
+
+footer p {
+	color: #FFFFFF;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 400px;
+}
+
+h3 {
+	display: inline;
+	margin-left: 100px;
+}
+
+.menu-opcoes {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.menu-opcoes ul {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.menu-opcoes ul li {
+	display: inline;
+	margin-left: 40px;
+}
+
+.menu-opcoes ul li:last-child {
+	padding: 10px;
+	background-color: #888;
+	border: 0;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(30,30,30,0.5);
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	text-shadow: 1px 0 1px black;
+	transition: 0.3s;
+}
+
+.menu-opcoes a {
+	color: #003366;
+}
+
+.menu-opcoes a:hover {
+	color: #007dc6;
+}
+
+.menu-opcoes a:active {
+	color: #867dc6;
+}
+
+footer {
+	background-color: #363636;
+	clear: both;
+	padding: 20px 0;
+}
+
+footer .container {
+	position: relative;
+}
+
+.social {
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+.social li {
+	float: left;
+}
+
+.social li a{
+	height: 32px;
+	width: 32px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+	background-image: url(../img/facebook.png);
+}
