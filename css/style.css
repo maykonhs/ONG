@@ -17,23 +17,84 @@
 }
 
 .ong {
-
+	background-color: #F8F8FF;
 }
 
-.atividades {
-	background-color: #2F4F4F;
+.ong a {
+	color: #000;
 }
 
-.atividades h2 {
+.ong li {
+	display: inline-block;
+	width: 200px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.ong li:first-child {
+	float: left;
+}
+
+.ong li:nth-child(2) {
+	margin-left: 150px;
+}
+
+.ong li:last-child {
+	float: right;
+}
+
+.ong img {
+	border-radius: 50px;
+}
+
+.eventos {
+	/*background-color: #2F4F4F;*/
+	background-color: #00688B;
+}
+
+.eventos a {
+	color: #fff;
+}
+
+.eventos img {
+	border-radius: 50px;
+}
+
+.eventos li {
+	display: inline-block;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.eventos li:first-child {
+	float: left;
+}
+
+.eventos li:last-child {
+	float: right;
+}
+
+.eventos h2 {
 	color: #fff;
 }
 
 .quem {
-	background-color: #CD9B1D;
+	background-color: #63B8FF;
 }
 
 .quem h2 {
 	color: #fff;
+}
+
+.quem p {
+	margin-top: 50px;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 70px;
 }
 
 header {
@@ -49,12 +110,8 @@ footer p {
 h2 {
 	font-size: 40px;
 	font-weight: bold;
-	margin-left: 400px;
-}
-
-h3 {
-	display: inline;
-	margin-left: 100px;
+	text-align: center;
+	margin-top: 50px;
 }
 
 .menu-opcoes {
@@ -75,7 +132,7 @@ h3 {
 
 .menu-opcoes ul li:last-child {
 	padding: 10px;
-	background-color: #888;
+	background-color: #63B8FF;
 	border: 0;
 	border-radius: 4px;
 	box-shadow: 1px 1px 3px rgba(30,30,30,0.5);
