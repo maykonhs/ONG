@@ -17,7 +17,7 @@
 }
 
 .ong {
-	background-color: #F8F8FF;
+	background-color: #fff;
 }
 
 .ong a {
@@ -99,6 +99,7 @@
 
 header {
 	position: relative;
+	background-color: #fff;
 }
 
 footer p {
@@ -110,23 +111,24 @@ footer p {
 h2 {
 	font-size: 40px;
 	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
 	text-align: center;
 	margin-top: 50px;
 }
 
 .menu-opcoes {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	right: 0;
 }
 
 .menu-opcoes ul {
 	font-size: 18px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .menu-opcoes ul li {
-	display: inline;
+	display: inline-block;
 	margin-left: 40px;
 }
 
